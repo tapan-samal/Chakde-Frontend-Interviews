@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .box {
+    margin-top: 4rem;
+    width: 30%;
+    background-color: #000000;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+
+    .light {
+      width: 74px;
+      height: 54px;
+      border-radius: 100%;
+      background-color: beige;
+    }
+    .red {
+      background-color: #ff0000;
+    }
+    .yellow {
+      background-color: #ffff00;
+    }
+    .green {
+      background-color: #00ac00;
+    }
+  }
+  .btns {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+
+    button {
+      padding: 0.6rem;
+      font-size: large;
+      border-radius: 6px;
+      border: none;
+      background-color: #4e4e4e;
+      color: white;
+      padding-inline: 1rem;
+      cursor: pointer;
+    }
+  }
+}
+
